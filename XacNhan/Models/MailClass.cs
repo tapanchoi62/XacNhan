@@ -14,5 +14,7 @@ namespace XacNhan.Models
         public string Body { get; set; }
         public bool isBodyhtml { get; set; }
         public List<string> Attachment { get; set; }
+        public List<string> Attachment1 { get; set; }
+
     }
 }

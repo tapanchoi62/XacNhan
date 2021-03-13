@@ -13,6 +13,6 @@ namespace XacNhan.Models
         public string Subject { get; set; }
         public string Body { get; set; }
         public bool isBodyhtml { get; set; }
-        public List<string> Attachment { get; set }
+        public List<string> Attachment { get; set; }
     }
 }
